@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>ChoreBot</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col text-center heading-color p-1">
+        <img src="assets/img/logo.svg" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col col-12">
+          <p class="color-cyan text-center pt-3">
+            <i class="fa fa-star"></i>&nbsp;Instructions&nbsp;<i
+              class="fa fa-star"
+            ></i>
+          </p>
+        </div>
+        <div class="col col-12">
+          <div class="row justify-content-center">
+            <div class="col-2 col-lg-2 text-right pr-2">
+              <span class="number">1.</span>
+            </div>
+            <div class="col-10 col-lg-4 p-0">
+              <p class="instruction pt-2">
+                Hiding behind one of these doors is the ChoreBot.<br />
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-2 col-lg-2 text-right pr-2">
+              <span class="number">2.</span>
+            </div>
+            <div class="col-10 col-lg-4 p-0">
+              <p class="instruction pt-2">
+                Your mission is to open all of the doors without running into
+                the ChoreBot.<br />
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-2 col-lg-2 text-right pr-2">
+              <span class="number">3.</span>
+            </div>
+            <div class="col-10 col-lg-4 p-0">
+              <p class="instruction pt-2">
+                If you manage to avoid the ChoreBot until the very last door,
+                you win!<br />
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-2 col-lg-2 text-right pr-2">
+              <span class="number">4.</span>
+            </div>
+            <div class="col-10 col-lg-4 p-0">
+              <p class="instruction pt-3">
+                See if you can score a winning streak!<br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 col-xl-2 text-center py-2">
+          <img class="door door-0" src="assets/img/closed_door.svg" />
+        </div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 col-xl-2 text-center py-2">
+          <img class="door door-1" src="assets/img/closed_door.svg" />
+        </div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 col-xl-2 text-center py-2">
+          <img class="door door-2" src="assets/img/closed_door.svg" />
+        </div>
+        <div class="col-sm-12 text-center py-1">
+          <button id="play-again" class="btn btn-warning" type="button">
+            <span>Game Over! <br />Play Again?</span></button
+          ><span id="good-luck" class="text-dark bg-warning btn hide" id="good-luck-msg"
+            >Good Luck!</span
+          >
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 text-center py-2">
+          <p class="instruction">Current<br />Streak:</p>
+          <p id="current-streak" class="number p-0">0</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 text-center py-2">
+          <p class="instruction">Best<br />Streak:</p>
+          <p id="best-streak" class="number p-0">0</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/choreboat.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+.heading-color {
+  background-color: #00ffff;
+}
+
+body {
+  background-color: #010165;
+}
+
+.color-cyan {
+  color: #00ffff;
+}
+
+.number {
+  color: #00ffff;
+  font-size: 39px;
+}
+
+.instruction {
+  color: #fff;
+  font-size: 14px;
+}
+
+.door {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
