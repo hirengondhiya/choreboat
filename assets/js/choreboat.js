@@ -1,11 +1,11 @@
 (function() {
     class ChoreBoat {
         images = [
-            '/assets/img/beach.svg',
-            '/assets/img/space.svg',
-            '/assets/img/robot.svg',
+            'assets/img/beach.svg',
+            'assets/img/space.svg',
+            'assets/img/robot.svg',
         ];
-        closedDoorImage = '/assets/img/closed_door.svg';
+        closedDoorImage = 'assets/img/closed_door.svg';
         currentStreak = document.getElementById('current-streak');
         bestStreak = document.getElementById('best-streak');
         goodLuckMsg = document.getElementById('good-luck');
